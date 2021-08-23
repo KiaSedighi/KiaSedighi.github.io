@@ -1,0 +1,87 @@
+@media (min-width:480px) {
+    .link-container {
+        width: 50vw;
+    }
+}
+
+@media (min-width:1025px) {
+    .link-container {
+        width: 25vw;
+    }
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+main {
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 248, 255, 0.685);
+    padding: 20px;
+}
+
+.link-container {
+    margin: auto;
+    background-color: rgb(51, 30, 37);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.spacer {
+    height: 10vh;
+}
+
+.links {
+    margin: auto;
+    list-style: none;
+    text-align: center
+}
+
+.link {
+    color: white;
+    text-decoration: none
+}
+
+.link-item {
+    margin-bottom: 30px;
+}
+
+#list-title {
+    font-size: 2rem;
+}
+
+.fab {
+    margin-right: 10px;
+}
+
+.list-title-li {
+    background-color: transparent;
+}
